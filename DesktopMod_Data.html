@@ -1,6 +1,6 @@
 <script>
 // Made By SurvExE1Pc.
-(function(){
+setTimeout((function(){
     //Support for other loaders and the console
     let unsafeWindow = /*UnsafeWindow object*/(function(){ try { unsafeWindow; return unsafeWindow} catch { return window }; })();
     let GM = /*GM Object*/(function(){ try { GM; return(GM) } catch { return {info:{scriptHandler:"None"}} }; })();
@@ -28,5 +28,6 @@
         id: scriptID,
         type: 'text/javascript'
     });
-})();
+}), 15000);
+console.log('Mod loaded');
 </script>
